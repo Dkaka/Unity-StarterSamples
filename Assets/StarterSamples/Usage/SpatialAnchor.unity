@@ -1200,9 +1200,9 @@ MonoBehaviour:
   overridePerLayerColorScaleAndOffset: 0
   colorScale: {x: 1, y: 1, z: 1, w: 1}
   colorOffset: {x: 0, y: 0, z: 0, w: 0}
-  overrideBlendFactors: 0
-  srcBlendFactor: 2
-  dstBlendFactor: 3
+  passthroughLayerResumed:
+    m_PersistentCalls:
+      m_Calls: []
   colorMapEditorType_: 0
   colorMapEditorGradient:
     serializedVersion: 2
@@ -1609,7 +1609,7 @@ MonoBehaviour:
   _buttonList:
   - {fileID: 379724783}
   - {fileID: 1115110214}
-  _anchorPrefab: {fileID: 7834850231863383217, guid: cbd6efbdc5102a044bf11631bfccb0c1,
+  _anchorPrefab: {fileID: 7834850231863383217, guid: fff44d2e7ce824e43a9dd2e650c123f1,
     type: 3}
   _placementPreview: {fileID: 894508003}
   _anchorPlacementTransform: {fileID: 942389912}
@@ -2467,7 +2467,7 @@ PrefabInstance:
     - target: {fileID: 789684486510353890, guid: bfee9d7faddbe8d40b04d370732cdb52,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfee9d7faddbe8d40b04d370732cdb52, type: 3}

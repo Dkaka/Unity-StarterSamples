@@ -12,12 +12,12 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: Meta
-  productName: Starter Samples
+  companyName: UCL_VRCLUB
+  productName: Starter Samples_RE
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
-  m_ShowUnitySplashScreen: 0
+  m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
   m_SplashScreenAnimation: 1
@@ -136,9 +136,9 @@ PlayerSettings:
     Others: 1
   bundleVersion: 1.0
   preloadedAssets:
+  - {fileID: 11400000, guid: 98fabcbcca0886f45ad5205e84216e81, type: 2}
   - {fileID: 11400000, guid: 8c0030b4b5984e7439a553df0cdd7dd2, type: 2}
   - {fileID: -2547559607972768095, guid: abe5d4c6390c70b438750d3c82121457, type: 2}
-  - {fileID: 11400000, guid: 98fabcbcca0886f45ad5205e84216e81, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -253,15 +253,15 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: 
-  AndroidKeyaliasName: 
+  AndroidKeystoreName: '{dedicated}: test_google_geospatial_creator/key.keystore'
+  AndroidKeyaliasName: 123456
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
   AndroidIsGame: 1
   AndroidEnableTango: 0
   androidEnableBanner: 1
   androidUseLowAccuracyLocation: 0
-  androidUseCustomKeystore: 0
+  androidUseCustomKeystore: 1
   m_AndroidBanners:
   - width: 320
     height: 180
